@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
       "AAA",
-      "  A",
+      "A  ",
       "   "
     ],
     "key": {
@@ -14,7 +14,8 @@
       "id": "minecraft:carrot_on_a_stick",
       "components": {
         "minecraft:custom_data": "{1:1}",
-        "minecraft:custom_name": [{"text": "Cardboard Gun","color": "#A66A2E","italic": false}]
+        "minecraft:custom_name": [{"text": "Cardboard Gun","color": "#A66A2E","italic": false}],
+        "custom_model_data":{strings:["1"]}
       }
     }
   }
