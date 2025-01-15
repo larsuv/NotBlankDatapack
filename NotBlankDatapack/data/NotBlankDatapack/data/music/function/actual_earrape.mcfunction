@@ -1,9 +1,0 @@
-execute as @a at @a run playsound blank.daylight ambient @a ~ ~ ~ 1 1 1
-execute as @a at @a run playsound blank.red_sun_in_the_sky ambient @a ~ ~ ~ 1 1 1
-execute as @a at @a run playsound blank.the_coconut_song ambient @a ~ ~ ~ 1 1 1
-execute as @a at @a run playsound blank.toxic ambient @a ~ ~ ~ 1 1 1
-execute as @a at @a run playsound blank.xenogenesis ambient @a ~ ~ ~ 1 1 1
-execute as @a at @a run playsound blank.skibidi_toilet ambient @a ~ ~ ~ 1 1 1
-execute as @a at @a run playsound blank.skibidi_toilet_phonk ambient @a ~ ~ ~ 1 1 1
-execute as @a at @a run playsound blank.holy_moly ambient @a ~ ~ ~ 1 1 1
-execute as @a at @a run playsound blank.the_spectre ambient @a ~ ~ ~ 1 1 1
