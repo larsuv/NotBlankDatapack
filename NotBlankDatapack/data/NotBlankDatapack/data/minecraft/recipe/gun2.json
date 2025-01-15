@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "AAA",
+      "  A",
+      "   "
+    ],
+    "key": {
+      "A": [
+        "minecraft:iron_ingot"
+      ]
+    },
+    "result": {
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "custom_data":{1:2},
+        "custom_name": [{"text": "Gun","color": "#C0C0C0","italic": false}]
+      }
+    }
+  }
+  

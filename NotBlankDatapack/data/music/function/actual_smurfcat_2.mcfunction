@@ -1,0 +1,1 @@
+execute as @a at @a run playsound blank.holy_moly ambient @a ~ ~ ~ 1 1
