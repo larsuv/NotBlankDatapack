@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/carrot_on_a_stick"
+        },
+        "cases": [
+            {
+                "when": "2",
+                "model": {
+                    "type": "model",
+                    "model": "item/carrot_on_a_stick_custom2"
+                }
+            }
+        ]
+    }
+}

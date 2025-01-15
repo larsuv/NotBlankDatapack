@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "pack_format":47,
+    "description": "§bCustom Music Discs",
+    "supported_formats":{"min_inclusive": 47, "max_inclusive": 47}
+  }
+}
