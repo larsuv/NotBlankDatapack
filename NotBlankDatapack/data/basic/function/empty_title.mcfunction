@@ -1,1 +1,1 @@
-title @a title {"text": " "}
+execute as @p at @p run title @p title {"text": " "}

@@ -15,7 +15,7 @@
       "components": {
         "minecraft:custom_data": "{1:1}",
         "minecraft:custom_name": [{"text": "Cardboard Gun","color": "#A66A2E","italic": false}],
-        "custom_model_data":{strings:["1"]}
+        "custom_model_data":{"strings":["1"]}
       }
     }
   }

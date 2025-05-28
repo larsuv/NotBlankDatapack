@@ -1,0 +1,68 @@
+{
+    "type":"minecraft:multi_action",
+    "actions":[
+        {
+        "label":"Xenogenesis",
+         "action":{
+            "type":"run_command",
+            "command":"playsound minecraft:blank.xenogenesis record @s ~ ~ ~ 1 1 0"
+            }
+        }, {
+        "label":"The Coconut Song",
+         "action":{
+            "type":"run_command",
+            "command":"playsound minecraft:blank.the_coconut_song record @s ~ ~ ~ 1 1 0"
+            }
+        }, {
+        "label":"Daylight",
+         "action":{
+            "type":"run_command",
+            "command":"playsound minecraft:blank.daylight record @s ~ ~ ~ 1 1 0"
+            }
+        }, {
+        "label":"Toxic",
+         "action":{
+            "type":"run_command",
+            "command":"playsound minecraft:blank.toxic record @s ~ ~ ~ 1 1 0"
+            }
+        }, {
+        "label":"Red Sun In The Sky",
+         "action":{
+            "type":"run_command",
+            "command":"playsound minecraft:blank.red_sun_in_the_sky record @s ~ ~ ~ 1 1 0"
+            }
+        }, {
+        "label":"Skibidi Toilet Phonk",
+         "action":{
+            "type":"run_command",
+            "command":"playsound minecraft:blank.skibidi_toilet_phonk record @s ~ ~ ~ 1 1 0"
+            }
+        }, {
+        "label":"Skibidi Toilet",
+         "action":{
+            "type":"run_command",
+            "command":"playsound minecraft:blank.skibidi_toilet record @s ~ ~ ~ 1 1 0"
+            }
+        }, {
+        "label":"The Spectre",
+         "action":{
+            "type":"run_command",
+            "command":"playsound minecraft:blank.the_spectre record @s ~ ~ ~ 1 1 0"
+            }
+        }, {
+        "label":"All I Want For Christmass Is You",
+         "action":{
+            "type":"run_command",
+            "command":"playsound minecraft:christmass.all_i_want_for_christmass_is_you record @s ~ ~ ~ 1 1 0"
+            }
+        }, {
+        "label":"Bad Apple",
+         "action":{
+            "type":"run_command",
+            "command":"playsound minecraft:blank.bad_apple record @s ~ ~ ~ 1 1 0"
+            }
+        }
+
+    ],
+    "title":"What you want?"
+    }
