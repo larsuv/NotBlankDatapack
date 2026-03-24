@@ -1,1 +1,1 @@
-title @a title {"text": "1","color": "#FF0000"}
+execute as @p at @p run title @p title {"text": "1","color": "#FF0000"}
