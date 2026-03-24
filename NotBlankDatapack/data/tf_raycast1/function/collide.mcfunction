@@ -4,7 +4,7 @@
 
 
 # Detect Headshots/bodyshots/legshots
-# summon tnt ~ ~ ~ {fuse:0}
+summon tnt ~ ~ ~ {fuse:0}
 
 execute positioned ~ ~0.35 ~ unless entity @s[dx=0] positioned ~ ~-0.3 ~ run damage @s 40 magic
 

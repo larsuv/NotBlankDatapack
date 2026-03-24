@@ -19,5 +19,5 @@ particle minecraft:smoke ~ ~ ~ 0 0 0 0 0
 #    The "positioned" value specifies the precision
 #    Edit raycast_pass.json in tags/blocks to change which blocks the raycast ignores
 #    "rotated" controls arc/curve of raycast path
-# execute if score .distance tf_rc matches ..3000 positioned ^ ^ ^0.1 rotated ~ ~ unless block ~ ~ ~ #tf_raycast1:raycast_passa run summon tnt ~ ~ ~ {fuse:0}
+execute if score .distance tf_rc matches ..3000 positioned ^ ^ ^0.1 rotated ~ ~ unless block ~ ~ ~ #tf_raycast1:raycast_passa run summon tnt ~ ~ ~ {fuse:0}
 execute if score .distance tf_rc matches ..3000 positioned ^ ^ ^0.1 rotated ~ ~ if block ~ ~ ~ #tf_raycast1:raycast_passa run function tf_raycast1:raycast
