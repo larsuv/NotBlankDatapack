@@ -1,7 +1,7 @@
 {
   "pack": {
     "description": "§bCustom Music Discs",
-    "min_format": [65, 0],
-    "max_format": [75, 0]
+    "min_format": [84, 0],
+    "max_format": [84, 0]
   }
 }

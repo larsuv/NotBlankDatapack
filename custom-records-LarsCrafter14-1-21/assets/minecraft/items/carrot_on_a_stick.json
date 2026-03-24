@@ -11,14 +11,14 @@
                 "when": "1",
                 "model": {
                     "type": "model",
-                    "model": "item/carrot_on_a_stick_custom"
+                    "model": "larscrafter:item/carrot_on_a_stick_custom"
                 }
             },
             {
                 "when": "2",
                 "model": {
                     "type": "model",
-                    "model": "item/carrot_on_a_stick_custom2"
+                    "model": "larscrafter:item/carrot_on_a_stick_custom2"
                 }
             }
         ]
