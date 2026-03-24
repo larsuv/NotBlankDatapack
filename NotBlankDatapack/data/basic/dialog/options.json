@@ -1,0 +1,44 @@
+{
+    "type":"minecraft:multi_action",
+    "actions":[
+        {
+        "label":"House",
+         "action":{
+            "type":"run_command",
+            "command":"function builds:house"
+            }
+        }, {
+        "label":"Spam chicken",
+         "action":{
+            "type":"run_command",
+            "command":"function basicfunctions:spam_chicken"
+            }
+        }, {
+        "label":"Smurfcat",
+         "action":{
+            "type":"run_command",
+            "command":"function music:smurfcat"
+            }
+        }, {
+        "label":"Earrape",
+         "action":{
+            "type":"run_command",
+            "command":"function music:earrape"
+            }
+        }, {
+        "label":"Other music",
+         "action":{
+            "type":"show_dialog",
+            "dialog":"music:songs"
+            }
+        }, {
+        "label":"Stop all sounds",
+         "action":{
+            "type":"run_command",
+            "command":"stopsound @s"
+            }
+        }
+
+    ],
+    "title":"What you want?"
+    }
