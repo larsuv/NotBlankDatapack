@@ -15,7 +15,7 @@
       "components": {
         "custom_data":"{1:2}",
         "custom_name": [{"text": "Gun","color": "#C0C0C0","italic": false}],
-        "custom_model_data":{strings:["2"]}
+        "custom_model_data":{"strings":["2"]}
       }
     }
   }
