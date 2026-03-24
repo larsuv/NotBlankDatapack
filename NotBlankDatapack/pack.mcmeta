@@ -1,12 +1,9 @@
 {
     "pack": {
-        "pack_format": 79,
         "description": {
             "text": "not my datapack"
         },
-        "supported_formats": {
-            "min_inclusive": 79,
-            "max_inclusive": 79
-        }
+        "min_format": [82, 0],
+        "max_format": [94, 1]
     }
 }
