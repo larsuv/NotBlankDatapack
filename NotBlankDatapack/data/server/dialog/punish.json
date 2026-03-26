@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Punish player",
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "Player",
+      "label": "Player",
+      "initial": "THH450"
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "Amount",
+      "label": "Amount",
+      "start": 0,
+      "end": 10000,
+      "step": 1000,
+      "initial": 1000
+    }
+  ],
+  "actions": [
+    {
+      "label": "Punish",
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "scoreboard players add $(Player) timeout $(Amount)"
+      }
+    }
+  ]
+}
