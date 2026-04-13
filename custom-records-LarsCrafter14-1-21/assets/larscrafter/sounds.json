@@ -63,6 +63,11 @@
         "sounds":[
             "larscrafter:custom/bad_apple"
         ]
+    },
+    "blank.fnaf":{
+        "sounds":[
+            "larscrafter:custom/fnaf"
+        ]
     }
 
     
