@@ -61,6 +61,12 @@
             "type":"run_command",
             "command":"playsound larscrafter:blank.bad_apple record @s ~ ~ ~ 1 1 0"
             }
+        }, {
+        "label":"Har Har Har",
+         "action":{
+            "type":"run_command",
+            "command":"playsound larscrafter:blank.fnaf record @s ~ ~ ~ 1 1 0"
+            }
         }
 
     ],
