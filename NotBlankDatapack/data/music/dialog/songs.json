@@ -1,74 +1,85 @@
 {
     "type":"minecraft:multi_action",
+    "inputs":[
+        {
+            "type":"single_option",
+            "key":"Target",
+            "label": "Target",
+            "options": [
+                {"id": "@s", "display": "current player"},
+                {"id": "@a", "display": "all players"}
+        ]
+        }
+    ],
     "actions":[
         {
         "label":"Xenogenesis",
          "action":{
-            "type":"run_command",
-            "command":"playsound larscrafter:blank.xenogenesis record @s ~ ~ ~ 1 1 0"
+            "type":"dynamic/run_command",
+            "template":"playsound larscrafter:blank.xenogenesis record $(Target) ~ ~ ~ 1 1 0"
             }
         }, {
         "label":"The Coconut Song",
          "action":{
-            "type":"run_command",
-            "command":"playsound larscrafter:blank.the_coconut_song record @s ~ ~ ~ 1 1 0"
+            "type":"dynamic/run_command",
+            "template":"playsound larscrafter:blank.the_coconut_song record $(Target) ~ ~ ~ 1 1 0"
             }
         }, {
         "label":"Daylight",
          "action":{
-            "type":"run_command",
-            "command":"playsound larscrafter:blank.daylight record @s ~ ~ ~ 1 1 0"
+            "type":"dynamic/run_command",
+            "template":"playsound larscrafter:blank.daylight record $(Target) ~ ~ ~ 1 1 0"
             }
         }, {
         "label":"Toxic",
          "action":{
-            "type":"run_command",
-            "command":"playsound larscrafter:blank.toxic record @s ~ ~ ~ 1 1 0"
+            "type":"dynamic/run_command",
+            "template":"playsound larscrafter:blank.toxic record $(Target) ~ ~ ~ 1 1 0"
             }
         }, {
         "label":"Red Sun In The Sky",
          "action":{
-            "type":"run_command",
-            "command":"playsound larscrafter:blank.red_sun_in_the_sky record @s ~ ~ ~ 1 1 0"
+            "type":"dynamic/run_command",
+            "template":"playsound larscrafter:blank.red_sun_in_the_sky record $(Target) ~ ~ ~ 1 1 0"
             }
         }, {
         "label":"Skibidi Toilet Phonk",
          "action":{
-            "type":"run_command",
-            "command":"playsound larscrafter:blank.skibidi_toilet_phonk record @s ~ ~ ~ 1 1 0"
+            "type":"dynamic/run_command",
+            "template":"playsound larscrafter:blank.skibidi_toilet_phonk record $(Target) ~ ~ ~ 1 1 0"
             }
         }, {
         "label":"Skibidi Toilet",
          "action":{
-            "type":"run_command",
-            "command":"playsound larscrafter:blank.skibidi_toilet record @s ~ ~ ~ 1 1 0"
+            "type":"dynamic/run_command",
+            "template":"playsound larscrafter:blank.skibidi_toilet record $(Target) ~ ~ ~ 1 1 0"
             }
         }, {
         "label":"The Spectre",
          "action":{
-            "type":"run_command",
-            "command":"playsound larscrafter:blank.the_spectre record @s ~ ~ ~ 1 1 0"
+            "type":"dynamic/run_command",
+            "template":"playsound larscrafter:blank.the_spectre record $(Target) ~ ~ ~ 1 1 0"
             }
         }, {
         "label":"All I Want For Christmass Is You",
          "action":{
-            "type":"run_command",
-            "command":"playsound larscrafter:christmass.all_i_want_for_christmass_is_you record @s ~ ~ ~ 1 1 0"
+            "type":"dynamic/run_command",
+            "template":"playsound larscrafter:christmass.all_i_want_for_christmass_is_you record $(Target) ~ ~ ~ 1 1 0"
             }
         }, {
         "label":"Bad Apple",
          "action":{
-            "type":"run_command",
-            "command":"playsound larscrafter:blank.bad_apple record @s ~ ~ ~ 1 1 0"
+            "type":"dynamic/run_command",
+            "template":"playsound larscrafter:blank.bad_apple record $(Target) ~ ~ ~ 1 1 0"
             }
         }, {
         "label":"Har Har Har",
          "action":{
-            "type":"run_command",
-            "command":"playsound larscrafter:blank.fnaf record @s ~ ~ ~ 1 1 0"
+            "type":"dynamic/run_command",
+            "template":"playsound larscrafter:blank.fnaf record $(Target) ~ ~ ~ 1 1 0"
             }
         }
 
     ],
-    "title":"What you want?"
+    "title":"Select a target and a song."
     }
