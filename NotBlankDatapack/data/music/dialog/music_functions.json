@@ -1,0 +1,26 @@
+{
+    "type":"minecraft:multi_action",
+    "actions":[
+        {
+        "label":"Smurfcat",
+         "action":{
+            "type":"run_command",
+            "command":"function music:smurfcat"
+            }
+        }, {
+        "label":"Earrape",
+         "action":{
+            "type":"run_command",
+            "command":"function music:earrape"
+            }
+        }, {
+        "label":"Individual songs",
+         "action":{
+            "type":"show_dialog",
+            "dialog":"music:songs"
+            }
+        }
+
+    ],
+    "title":"What you want?"
+    }
