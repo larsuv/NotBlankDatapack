@@ -1,23 +1,40 @@
 {
     "type":"minecraft:multi_action",
+    "inputs":[
+        {
+            "type":"single_option",
+            "key":"Target",
+            "label": "Target",
+            "options": [
+                {"id": "@s", "display": "current player"},
+                {"id": "@a", "display": "all players"}
+        ]
+        }
+    ],
     "actions":[
         {
         "label":"Smurfcat",
          "action":{
-            "type":"run_command",
-            "command":"function music:smurfcat"
+            "type":"dynamic/run_command",
+            "template":"execute as $(Target) at @s run function music:smurfcat"
             }
         }, {
         "label":"Earrape",
          "action":{
-            "type":"run_command",
-            "command":"function music:earrape"
+            "type":"dynamic/run_command",
+            "template":"execute as $(Target) at @s run function music:earrape"
             }
         }, {
         "label":"Individual songs",
          "action":{
             "type":"show_dialog",
             "dialog":"music:songs"
+            }
+        }, {
+        "label":"Stop all sounds",
+         "action":{
+            "type":"dynamic/run_command",
+            "template":"stopsound $(Target)"
             }
         }
 

@@ -20,10 +20,10 @@
             "dialog":"music:music_functions"
             }
         }, {
-        "label":"Stop all sounds",
+        "label":"Punishment",
          "action":{
-            "type":"run_command",
-            "command":"stopsound @s"
+            "type":"show_dialog",
+            "dialog":"server:punish"
             }
         }
 
