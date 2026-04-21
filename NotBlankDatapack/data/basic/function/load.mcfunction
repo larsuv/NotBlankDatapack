@@ -4,3 +4,7 @@ scoreboard objectives add RightClick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add tf_rc dummy
 scoreboard objectives add timeout dummy
 scoreboard objectives add offenses dummy
+team add jailed Jail
+team modify jailed friendlyFire false
+team modify jailed collisionRule never
+team modify jailed prefix "Near Jail "
