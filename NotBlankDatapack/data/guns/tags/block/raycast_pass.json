@@ -1,0 +1,32 @@
+{
+    "values":[
+    "#minecraft:buttons",
+    "#minecraft:snow",
+    "#minecraft:replaceable",
+    "minecraft:short_grass",
+    "#minecraft:flowers",
+    "#minecraft:flower_pots",
+    "#minecraft:leaves",
+    "#minecraft:wall_post_override",
+    "#minecraft:can_glide_through",
+    "#minecraft:crops",
+    "#minecraft:saplings",
+    "#minecraft:all_signs",
+    "#minecraft:climbable",
+    "minecraft:attached_melon_stem",
+    "minecraft:attached_pumpkin_stem",
+    "minecraft:nether_wart",
+    "minecraft:sweet_berry_bush",
+    "minecraft:cocoa",
+    "minecraft:sugar_cane",
+    "minecraft:redstone_wire",
+    "#minecraft:rails",
+    "minecraft:torch",
+    "minecraft:soul_torch",
+    "minecraft:redstone_torch",
+    "minecraft:pink_petals",
+    "minecraft:leaf_litter",
+    "#minecraft:candles",
+    "#minecraft:corals"
+    ]
+}
