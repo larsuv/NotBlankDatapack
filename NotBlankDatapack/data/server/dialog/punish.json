@@ -12,9 +12,9 @@
       "type": "minecraft:number_range",
       "key": "Amount",
       "label": "Amount",
-      "start": 0,
-      "end": 10000,
-      "step": 1000,
+      "start": 100,
+      "end": 100000,
+      "step": 100,
       "initial": 1000
     }
   ],
