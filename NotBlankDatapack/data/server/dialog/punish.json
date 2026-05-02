@@ -13,7 +13,7 @@
       "key": "Amount",
       "label": "Amount",
       "start": 100,
-      "end": 100000,
+      "end": 25000,
       "step": 100,
       "initial": 1000
     }
